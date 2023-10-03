@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+   
+}
+
+.container
+{
+    max-width: 850px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow:hidden;
+}
+.first
+{
+    background-image: url(/portfolio/bg.gif);
+    .arrows {
+        width: 60px;
+        height: 72px;
+        position: absolute;
+        left: 50%;
+        margin-left: -30px;
+        bottom: 20px;
+      }
+    }
+.navbar
+{
+    display:flex;
+    gap: 600px;
+    background-color: #363636;
+    padding: 15px;
+    font-family: sans-serif;
+    background-image: url(/portfolio/bg.gif);
+}
+.name
+{
+ text-decoration: none;
+   color:#00b3b3;
+   display: block;
+   font-size: 20px;
+   padding: 14px 16px;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+.name:hover
+{
+    color: white;
+}
+.nav-items{
+    list-style: none;
+}
+.nav-items li{
+    display: inline-block;
+}
+.nav-items li a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 14px 16px;
+    font-weight: bold;
+}
+.nav-items li a:hover
+{
+    
+    text-decoration: underline #00b3b3;
+}
+.intro
+{
+    padding: 200px 500px;
+    background-image: url(/portfolio/bg.gif);
+}
+.hello
+{
+    font-family: sans-serif;
+    color: #00b3b3;
+    font-size: 30px;
+}
+.me{
+    font-family: sans-serif;
+    color: white;
+    font-size: 50px;
+    white-space: nowrap;
+}
+.skills
+{
+    display: inline-flex;
+  
+}
+.static
+{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+#element
+{
+    margin-left: 15px;
+    height: 60px;
+    line-height: 50px;
+    color: #00b3b3;
+    font-size: 40px;
+    font-weight: 400;
+    white-space: nowrap;
+    }
+
+.about-me
+{ 
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 200px;
+    gap: 70px;
+    justify-content: space-around;
+    padding: 40px;
+    
+    
+}
+
+img
+{
+    width: 450px;
+    height: 450px;
+}
+.cv-button
+{
+    background-color:#00b3b3;
+    border: 0.5px solid black;
+    border-radius:8px ;
+    font-size: 15px;
+    color:black!important;
+    padding: 10px 12px;
+    box-shadow: 0 0 2px gray;
+}
+.cv-button:hover
+{
+    background-color: aqua;
+}
+.edu
+{
+   font-size: 25px;
+   color:#fdd835;
+   text-align: center;
+   text-decoration: underline;
+   
+}
+.clg
+{
+   font-size: 20px;
+   color: white;
+}
+.degree
+{
+    font-size: 20px;
+    color:#00b3b3;
+}
+.branch
+{
+    font-size: 20px;
+    color: white;
+}
+.place
+{
+    font-size: 18px;
+    color: white;
+}
+.year
+{
+    font-size: 20px;
+    color:#fdd835;
+}
+.cert
+{
+   font-size: 25px;
+   color:#fdd835;
+   text-align: center;
+   text-decoration: underline;
+   margin-top: 90px;
+}
+@keyframes myani
+{
+    0%
+    {
+        background-image: url(/portfolio/certificates/c\ .png);
+
+    }
+    20%
+    {
+        background-image: url(/portfolio/certificates/c++.png);
+    
+    }
+    40%{
+         background-image: url(/portfolio/certificates/python.png);
+
+    }
+    60%{
+        background-image: url(/portfolio/certificates/ccsk.png);
+   }
+   80%{
+    background-image: url(/portfolio/certificates/cs.png);
+}
+100%
+{
+    background-image: url(/portfolio/certificates/linux.png);
+}
+
+}
+.sub-cert
+{
+    animation-name: myani;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    position: relative;
+    width: 1000px;
+    height:500px ;
+    animation-iteration-count:infinite;
+
+
+}
+.skillss
+{
+   font-size: 14px;
+   font-family: sans-serif;
+   display: flex;
+    flex-direction:row;
+    margin: 200px;
+    gap: 70px;
+    justify-content: space-around;
+    padding: 40px;
+
+    
+}
+.paragraphh h1
+{
+   color:#fdd835;
+   text-decoration: underline;
+   margin-top: 55px;
+}
+.sub-skill img
+{
+    width: 52px;
+    height: auto;
+    margin: 0px 20px 40px 30px;
+    margin-top: 10px;
+
+}
+.sub-skill img:hover
+{
+    width:58px ;
+    height: auto;
+}
+
+.paragraphh
+{
+    font-size: 17px;
+    color: white;
+    margin-top: -100px;
+    max-width: 350px;
+    
+}
+.sk{
+    font-size: 25px;
+    color: #fdd835;
+}
+/*Projects*/
+.heading
+{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -5px;
+    padding-bottom: 15px;
+    font-size: 32px;
+}
+.projects
+{
+    padding: 15px 9%;
+    padding-bottom: 100px;
+    font-family: 'poppins',sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    
+
+}
+.projects h4
+{
+   color: white;
+   text-transform:uppercase;
+   background-color: #363636;
+}
+.projects h3
+{
+    color: #00b3b3;
+    padding: 10px 0;
+    text-transform: lowercase;
+    background-color: #363636;
+}
+.projects p
+{
+    color: white;
+    font-size: 15px;
+    line-height: 1.8;
+    background-color: #363636;
+}
+
+.projects .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 15px;
+}
+.projects .box-container .box
+{
+    box-shadow: 0 5px 10px black;
+    border-radius: 5px;
+    background-color: #363636 !important;
+    text-align: center;
+    padding: 30px 20px;
+
+}
+.projects .box-container .box:hover
+{
+    box-shadow: 0 10px 15px black;
+    transform: scale(1.03);
+    
+}
+.projects .box-container .box .button
+{
+   margin-top: 10px;
+   display: inline-block;
+   background-color: black;
+   font-size: 17px;
+   border-radius: 5px;
+   padding: 8px 25px;
+   color: white;
+}
+.projects .box-container .box .button:hover
+{
+    letter-spacing: 1px;
+}
+/*contact me*/
+.heading2
+{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 32px;
+}
+.contact
+{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    
+}
+.contact-box
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contact-box .contact-info
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-box .contact-info .boxx
+{
+   position: relative;
+   padding: 20px 0;
+   display: flex;
+}
+.contact-box .contact-info .boxx .icon
+{
+    min-width:60px;
+    height: 60px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.contact-box .contact-info .boxx .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color:white;
+    flex-direction: column;
+}
+.contact-box .contact-info .boxx .text h3
+{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contact-form
+{
+    width: 40%;
+    padding:40px;
+    background-color:white !important;
+    
+}
+.contact-form h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    background-color:white;
+
+}
+.contact-form .inputbox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    background-color:white;
+}
+.contact-form .inputbox input,.contact-form .inputbox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    margin: 10px 0;
+    border: none;
+    font-size: 16px;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+    background-color:white;
+}
+.contact-form .inputbox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+    background-color: white;
+}
+.contact-form .inputbox input:focus~ span,
+.contact-form .inputbox input:valid~ span,
+.contact-form .inputbox textarea:focus~ span,
+.contact-form .inputbox textarea:valid~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+    background-color:white;
+}
+.contact-form .inputbox input[type="submit"]
+{
+    width: 100px;
+    background-color:#00b3b3;   
+    color:black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+.contact-form .inputbox input[type="submit"]:hover
+{
+    background-color: aqua;
+}
+
+form
+{
+    background-color: white;
+}
